@@ -1,4 +1,4 @@
-# Crie um Network Load Balancer
+# Crie um Network Load Balancer...
 resource "aws_lb" "this" {
   name = format("%s-nlb", var.cluster_name)
 
